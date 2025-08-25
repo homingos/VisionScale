@@ -1,0 +1,105 @@
+{
+  "image_path": "WhatsApp Image 2025-08-25 at 11.46.33.jpeg",
+  "image_size": {
+    "width": 960,
+    "height": 1280
+  },
+  "mode": "depthpro",
+  "camera_intrinsics": {
+    "depth_pro_focal": 1114.2232666015625,
+    "geocalib_focal": {
+      "fx": 1757.9505615234375,
+      "fy": 1757.9505615234375
+    },
+    "geocalib_principal_point": {
+      "cx": 480.0,
+      "cy": 640.0
+    },
+    "focal_uncertainty": null,
+    "used_principal_point": {
+      "cx": 480.0,
+      "cy": 640.0
+    }
+  },
+  "measurement_points": {
+    "point1_2d": {
+      "u": 192.0,
+      "v": 234.0
+    },
+    "point2_2d": {
+      "u": 747.0,
+      "v": 587.0
+    },
+    "point1_depth": 0.7572580575942993,
+    "point2_depth": 0.8083222508430481
+  },
+  "depth_pro_prediction": {
+    "point1_3d": {
+      "x": -0.1957330520052276,
+      "y": -0.27592923303514727,
+      "z": 0.7572580575942993
+    },
+    "point2_3d": {
+      "x": 0.19369730236684252,
+      "y": -0.03844927724884889,
+      "z": 0.8083222508430481
+    },
+    "delta_3d": {
+      "x": 0.3894303543720701,
+      "y": 0.23747995578629838,
+      "z": 0.05106419324874878
+    },
+    "distance_m": 0.4589774309688483,
+    "error_m": 0.1287774309688483,
+    "error_percent": 38.999827670759636
+  },
+  "geocalib_prediction": {
+    "available": true,
+    "focal_length": {
+      "fx": 1757.9505615234375,
+      "fy": 1757.9505615234375
+    },
+    "principal_point": {
+      "cx": 480.0,
+      "cy": 640.0
+    },
+    "focal_uncertainty": null,
+    "gravity_direction": null,
+    "points_3d": {
+      "P1": [
+        -0.12405941632292629,
+        -0.1748893160663475,
+        0.7572580575942993
+      ],
+      "P2": [
+        0.1227691185968636,
+        -0.024369899946193894,
+        0.8083222508430481
+      ]
+    },
+    "delta_xyz": [
+      0.2468285349197899,
+      0.1505194161201536,
+      0.05106419324874878
+    ],
+    "distance_meters": 0.2935778808288313,
+    "error_absolute": 0.0366221191711687,
+    "error_percentage": 11.090890118464173
+  },
+  "ground_truth_m": 0.3302,
+  "depth_map_info": {
+    "depth_range_m": {
+      "min": 0.4929274618625641,
+      "max": 2.9393205642700195
+    },
+    "depth_map_shape": [
+      1280,
+      960
+    ]
+  },
+  "output_files": {
+    "depth_map": "3d_WhatsApp Image 2025-08-25 at 11.46.33/depth_map.png",
+    "measurement_visualization": "3d_WhatsApp Image 2025-08-25 at 11.46.33/measurement_visualization.png",
+    "data_json": "3d_WhatsApp Image 2025-08-25 at 11.46.33/data.json"
+  }
+}
