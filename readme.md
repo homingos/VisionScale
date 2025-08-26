@@ -1,4 +1,4 @@
-# 3D Distance Measurement System
+# VisionScale
 
 A comprehensive computer vision system for measuring 3D distances from single images using state-of-the-art deep learning models.
 
@@ -31,7 +31,7 @@ GeoCalib → Camera Intrinsics → Improved Accuracy
 ## 📁 Project Structure
 
 ```
-3d_distances/
+VisionScale/
 ├── measure_3d_distance.py          # Single-point measurement pipeline
 ├── measure_3d_distance_multi.py    # Multi-point measurement pipeline (up to 20 points)
 ├── setup.py                        # Automated setup script
@@ -311,8 +311,8 @@ Z = depth_at_point
 - **Fused Mode**: Best overall performance
 
 ### Speed
-- **GPU**: ~2-5 seconds per image
-- **CPU**: ~10-30 seconds per image
+- **GPU**: ~10-15 seconds per image
+- **CPU**: ~20-30 seconds per image
 - **Multi-point**: Scales with number of point combinations
 
 ## 🔮 Future Enhancements
