@@ -192,8 +192,6 @@ python3 measure_3d_distance_multi.py --image your_image.jpg \
 }
 ```
 
-## ⚙️ Advanced Usage
-
 ### Command Line Options
 
 #### Single-Point Pipeline
@@ -333,38 +331,6 @@ Z = depth_at_point
 - Depth Pro: https://github.com/apple/ml-depth-pro
 - GeoCalib: https://github.com/cvg/GeoCalib
 
-
-
-## Acknowledgements
-
-### Research Teams
-- **Apple Research**: For developing and open-sourcing Depth Pro, a state-of-the-art monocular depth estimation model that provides metric depth predictions from single images.
-- **Computer Vision Group (CVG)**: For developing GeoCalib, an innovative single-image camera calibration system that estimates camera intrinsics and gravity direction from a single image.
-
-### Model Contributors
-- **Depth Pro Team**: Alexander Veicht, Paul-Edouard Sarlin, Philipp Lindenberger, Marc Pollefeys
-- **GeoCalib Team**: Computer Vision Group at ETH Zurich
-
-### Open Source Libraries
-- **PyTorch**: Deep learning framework
-- **OpenCV**: Computer vision library
-- **NumPy**: Numerical computing
-- **Matplotlib**: Visualization library
-- **SciPy**: Scientific computing
-
-### Development Tools
-- **Git**: Version control
-- **Python**: Programming language
-- **CUDA**: GPU acceleration
-
-### Community
-- **Open Source Community**: For providing the foundation libraries and tools that make this project possible
-- **Research Community**: For advancing the state-of-the-art in computer vision and depth estimation
-
-### Special Thanks
-- **Apple**: For making Depth Pro available to the research community
-- **ETH Zurich**: For developing and open-sourcing GeoCalib
-- **All Contributors**: For their valuable feedback and contributions to this project
 
 ---
 
