@@ -335,7 +335,7 @@ Z = depth_at_point
 
 
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 ### Research Teams
 - **Apple Research**: For developing and open-sourcing Depth Pro, a state-of-the-art monocular depth estimation model that provides metric depth predictions from single images.
